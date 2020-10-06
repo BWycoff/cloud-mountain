@@ -231,7 +231,7 @@ margin-right: 4%;
 
 } */
 
-@media screen and (max-width: 1028px) {
+@media screen and (max-width: 600px) {
   #mobile-tag {
     font-size: 3.5rem;
 
