@@ -1,0 +1,245 @@
+body {
+  font-family: "Futura";
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  font-size: 4.5rem;
+  text-align: left;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 2rem;
+  text-align: left;
+}
+
+h3 {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+
+.container-fluid {
+  padding: 3% 7%;
+}
+
+.colored-section {
+  background-color: #4B6652;
+  color: white;
+  padding: 1%;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.white-section-footer {
+  margin: 3%;
+}
+
+
+/* Nav bar */
+
+
+.navbar-brand {
+  padding-left: 20px;
+  font-size: 2rem;
+}
+
+.navbar {
+margin-right: 4%;
+}
+
+.nav-item {
+  font-size: 1.1rem;
+  padding: 1.5%;
+}
+
+
+/* Title */
+
+.tagline {
+  margin: 3% 4% 0;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 5.5rem;
+  padding-top: 15%;
+}
+
+.btn-book {
+  background-color: #FFA684;
+  border-color: #FFA684;
+  padding: 10px 40px;
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 10;
+  bottom: 150px;
+}
+
+
+
+/* Spacer */
+
+.spacer {
+  margin: 0 4% 4% 4%;
+  }
+
+  .spacer-text {
+    text-align: center;
+  }
+
+
+
+/* About */
+
+.liv-image {
+  margin: 2%;
+}
+
+.bio-heading {
+  width: 90%;
+  padding-top: 20px;
+}
+
+.bio-info {
+  width: 90%;
+  padding-top: 20px;
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+
+/* Massage Types */
+.massage-techniques {
+  margin: 20px;
+  padding: 3% 3% 0 3%;
+}
+
+.massage-image {
+  margin: 2%;
+  width: 90%;
+}
+
+.row {
+  margin: 20px;
+  padding: 2%;
+}
+
+.massage-types {
+  margin: 3%;
+  padding: 20px 10px 30px 10px;
+}
+
+/* Testimonials */
+
+
+.testimonial-text {
+  text-align: center;
+  padding: 0 3% 0 3%;
+  font-family: "Roboto";
+  font-weight: 200;
+  line-height: 1.2;
+
+}
+
+
+
+
+/* Rates */
+
+.rates {
+  padding: 1%;
+}
+.rates-head {
+  margin: 20px;
+  padding: 3% 3% 0 3%;
+}
+
+.swedish {
+  margin: 2%;
+  width: 90%;
+}
+
+
+/* Insurance */
+
+
+.insurance-info-head {
+  margin: 20px;
+  padding: 3% 3% 0 3%;
+}
+
+.insurance-info-subhead {
+  margin: 20px;
+  padding: 0 3% 0 3%;
+  font-family: "Roboto";
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+.insurance-text {
+  width: 90%;
+  padding-top: 20px;
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+
+/* CTA */
+
+.contact-form-head {
+  margin: 20px;
+  padding: 3% 3% 0 3%;
+}
+
+.btn-submit {
+  background-color: #FFA684;
+  border-color: #FFA684;
+  padding: 10px 40px;
+  font-size: 1.5rem;
+}
+
+/* Contact */
+
+.contact {
+  text-align: center;
+}
+
+/* Footer */
+
+.social-icon {
+  margin: 20px 10px;
+  color: #ffa684;
+  padding: 5px;
+}
+
+.social-icon:hover {
+  color: #6c757d;
+}
+
+/* .fab .fas {
+  color: #FFA684;
+  padding: 30px 30px 10px;
+
+} */
+
+@media screen and (max-width: 1028px) {
+  #mobile-tag {
+    font-size: 3.5rem;
+
+  }
+
+
+
+  @media screen and (max-width: 1028px) {
+    #btn-shrink {
+      bottom: 0;
+    }
